@@ -8,7 +8,7 @@ const cors = require('cors');
 require('./Connection/conn');
 
 app.use(cors({
-    origin: 'https://clipitgaming-taupe.vercel.app',
+    origin: 'https://clipitapp.vercel.app',
     credentials: true
 }));
 app.use(express.json());
